@@ -59,7 +59,7 @@ You should specify the network you want to deploy to. Replace `<network>` in any
 the network of your choice(e.g., `bsctestnet`).
 
 ```sh
-hh --network <network> deploy --tags <tag> 
+hh --network <network> deploy --tags < tag > 
 ```
 
 ## Verify
@@ -68,5 +68,5 @@ You should specify the network you want to verify to. Replace `<network>` in any
 the network of your choice(e.g., `bsctestnet`).
 
 ```sh
-hh verify --network <network>  <contract name or address> "Constructor argument 1" "Argument 2"
+hh verify --network <network>  < contract name or address > "Constructor argument 1" "Argument 2"
 ```
